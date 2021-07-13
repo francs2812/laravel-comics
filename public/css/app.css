@@ -78,6 +78,115 @@ main ul li h3 {
   margin: 5px;
 }
 
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-image: url("/images/footer-bg.jpg");
+}
+
+footer a {
+  text-decoration: none;
+  color: gray;
+}
+
+footer span {
+  overflow: hidden;
+  position: relative;
+}
+
+footer span ul {
+  float: left;
+  margin: 10px 20px;
+}
+
+footer span ul li {
+  list-style: none;
+}
+
+footer span #logo-bd {
+  height: 400px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  right: 0;
+  padding: 25px;
+}
+
+footer #pulsante {
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #202020;
+}
+
+footer #pulsante h1 {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 13px;
+  padding: 10px;
+  text-transform: uppercase;
+  border: 1px solid blue;
+  color: white;
+}
+
+footer #pulsante img {
+  height: 25px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+footer #pulsante h3 {
+  text-transform: uppercase;
+  color: blue;
+  float: left;
+}
+
+footer .title {
+  margin: 15px 0;
+}
+
+footer .title a {
+  color: white;
+}
+
+footer nav {
+  height: 80px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer nav ul {
+  height: 70%;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer nav ul li {
+  height: 100%;
+  font-size: 10px;
+  padding: 10px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+footer nav ul li img {
+  height: 100%;
+}
+
+footer nav ul li p {
+  text-transform: uppercase;
+  margin: 0 15px;
+  display: block;
+}
+
 a:active {
   color: blue;
 }

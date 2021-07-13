@@ -1,0 +1,104 @@
+footer {
+    display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-image: url( "/images/footer-bg.jpg");
+
+        a {
+            text-decoration: none;
+            color:gray;
+        }
+        span {
+            overflow: hidden;
+            position: relative;
+            ul {
+                float: left;
+                margin:10px 20px;
+    
+                li {
+                    list-style: none;
+                }
+            }
+            #logo-bd {
+                height: 400px;
+                transform: translate(-50%, -50%);
+                position: absolute;
+                top: 50%;
+                right: 0;
+                padding: 25px;
+            }
+        }
+        #pulsante {
+                height: 70px;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                background-color: #202020;
+    
+                h1 {
+                    display: inline-block;
+                    cursor: pointer;
+                    font-size: 13px;
+                    padding: 10px;
+                    text-transform: uppercase;
+                    border: 1px solid blue;
+                    color: white;
+                }
+
+                img {
+                    height: 25px;
+                    margin: 0 10px;
+                    cursor: pointer;
+                }
+    
+                h3 {
+                    text-transform: uppercase;
+                    color: blue;
+                    float: left;
+                }
+        }
+    
+        .title {
+            margin:15px 0;
+            a {
+                color: white;
+            }
+        }
+        nav {
+            height: 80px;
+            background-color: blue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+            ul {
+                height: 70%;
+                width: 70%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                li {
+                    height: 100%;
+                    font-size: 10px;
+                    padding: 10px;
+                    list-style: none;
+                    display: flex;
+                    align-items: center;
+                    cursor: pointer;
+                    
+
+                    img {
+                        height: 100%;
+                    }
+
+                    p {
+                        text-transform: uppercase;
+                        margin: 0 15px;
+                        display: block;
+                    }
+                }
+            }
+        }
+}
