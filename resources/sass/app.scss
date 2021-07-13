@@ -1,4 +1,7 @@
 //
-@import 'partials/_variables';
+@import 'partials/_header';
+@import 'partials/_main';
 
-$triangolo : "&#9660;" ;
+a:active {
+    color: blue;
+}
